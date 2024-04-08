@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(/img/skyDraw.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container1 {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    backdrop-filter: blur(40px);
+    border: 1px solid #ffff;
+    height: 400px;
+    width: 350px;
+    border-radius: 30px;
+}
+
+.botao {
+    background-color: rgb(161, 60, 255);
+    height: 50px;
+    width: 200px;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.botao:hover {
+    background-color: rgba(255, 117, 181, 0.979);
+    color: rgb(0, 0, 0);
+}
+
+.input-box input::placeholder { 
+   background: transparent;
+}
+
+.input-box {
+    border-radius: 10px;
+    font-size: 17px;
+    background: transparent;
+    height: 70%;
+    width: 70%;
+    border: none;
+    outline: none;
+}
+
+.login-button h1 {
+ text-align: center;
+}
+
+.icon-inputs {
+    border: 2px solid white;
+    border-radius: 10px;
+
+}

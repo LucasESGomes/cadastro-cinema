@@ -8,26 +8,32 @@
 </head>
 <body>
     <div class="container1">
-        <div class="Input-register">
-            <form action="">
-                    <h1 class="login-button">Login</h1>
-                        <div class="inputs-container">
+        <div>
+            <h1 class="tittle-container">Login</h1>
+        </div>
+            <div class="Input-register">
+                <form action="">
+                    <div class="inputs-container">
                         <span class="icon-inputs">
                             <label for="Login"></label>
-                            <input class="input-box" id="Login" type="email" name="Login" placeholder="Enter you email" required >
-                            <ion-icon name="person-outline"></ion-icon>
+                            <input class="input-box" id="Login" type="email" name="Login" placeholder="Email" required >
+                            <ion-icon class="icon" name="mail-outline"></ion-icon>
                         </span>
                         <span class="icon-inputs">
                             <label for="Password"></label>
-                            <input class="input-box" id="Password" name="Password" placeholder="Enter your password" required>
-                            <ion-icon name="eye-outline"></ion-icon>
+                            <input class="input-box" type="Password" id="Password" name="Password" placeholder="Password" required>
+                            <ion-icon class="icon" name="eye-outline"></ion-icon>
                         </span>
+                        <label for="check-box">
+                            <input type="">
+
+                        </label>
+                    </div>
+                </form>
+            </div>
+                <div>
+                    <button class="botao">Enviar</button>
                 </div>
-            </form>
-        </div>
-        <div>
-            <button class="botao">Enviar</button>
-        </div>
     </div>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>

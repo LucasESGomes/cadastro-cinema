@@ -1,35 +1,154 @@
-.container {
-    display: flex;
-    background-color: rgb(51, 131, 252);
-    height: 635px;
-    width: 535px;
-    justify-content: center;
-    align-items: center;
-    border: 30px solid rgb(51, 131, 252);
-    border-radius: 30px;
-    margin: 30px 0;
+*{
+    font-family: poppins, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-body {
+body{
+    background-image: url(./img/denis-sebastian-tamas-HJ7vZTlpmog-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+.general {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 110vh;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    top: 0;
+    height: 100px;
     width: 100%;
-    height: 100vh;
+    line-height: 100px;
+    z-index: 100;
+}
+
+.nav-menu ul {
+    display: flex;
+}
+
+.nav-menu ul li {
+    list-style-type: none;
+}
+
+.nav-menu ul li .link {
+    text-decoration: none;
+    padding-bottom: 15px;
+    margin: 0 25px;
+    color: white;
+}
+
+.link:hover {
+    border-bottom: 2px solid white;
+}
+
+.link-button .button {
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s ease;
+    width: 140px;
+    height: 45px;
+    background: linear-gradient(red,rgb(255, 79, 79))
+}
+
+.link-button .button:hover {
+    background: rgb(255, 255, 255);
+}
+
+.title {
+    color: white;
+    font-size: 30px;
+}
+
+.Menu-button {
+    color: white;
+}
+
+
+
+
+
+
+
+.form {
+    background: transparent;
+    width: 300px;
+    height: 400px;
+    border: 2px solid white;
+    border-radius: 15px;
+    backdrop-filter: blur(5px);
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(blue, rgb(51, 131, 252));
 }
 
-.botao {
-    background-color: rgb(255, 24, 24);
+.Login {
+    color: white;
+    text-align: center;
+    position: relative;
+    margin-top: -30px;
+    height: 120px;
+
+}
+
+.input-check {
+    color: white;
+}
+
+.icon {
+    color: white;
+}
+
+.input-box {
+    height: 45px;
+    width: 200px;
+    border-bottom: 2px solid white;
+}
+
+.input-box input {
+    height: 35px;
+    width: 175px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: white;
+}
+
+.input-password::placeholder {
+    background: transparent;
+    color: white;
+}
+
+.input-email::placeholder {
+    background: transparent;
+    color: white;
+}
+
+.Remember {
+    font-size: 12px;
+}
+
+.button-enter {
+    position: relative;
+    margin-top: 40px;
     height: 50px;
     width: 200px;
-    color: rgb(241, 255, 41);
-    font-size: 20px;
-    font-family: 'Times New Roman', Times, serif;
     border-radius: 10px;
+    background: rgb(255, 16, 16);
+    color: white;
+    font-size: 18px;
 }
 
-.botao:hover {
-    background-color: rgb(255, 177, 188);
-    color: rgb(0, 0, 0);
+.button-enter:hover {
+    color: black;
+    background: white;
+    transition: 1s ease;
 }

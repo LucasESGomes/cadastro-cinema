@@ -1,41 +1,54 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style1.css">
-    <title>Sign in</title>
+<html lang="en">
+<link>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style1.css">
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+<title>Movie register</title>
 </head>
 <body>
-    <div class="container1">
-        <div>
-            <h1 class="tittle-container">Login</h1>
-        </div>
-            <div class="Input-register">
-                <form action="">
-                    <div class="inputs-container">
-                        <span class="icon-inputs">
-                            <label for="Login"></label>
-                            <input class="input-box" id="Login" type="email" name="Login" placeholder="Email" required >
-                            <ion-icon class="icon" name="mail-outline"></ion-icon>
-                        </span>
-                        <span class="icon-inputs">
-                            <label for="Password"></label>
-                            <input class="input-box" type="Password" id="Password" name="Password" placeholder="Password" required>
-                            <ion-icon class="icon" name="eye-outline"></ion-icon>
-                        </span>
-                        <label for="check-box">
-                            <input type="">
-
-                        </label>
-                    </div>
-                </form>
+    <div class="general">
+        <nav class="navigation">
+            <div class="Menu-button">
+                <i class='bx bx-menu'></i>
             </div>
-                <div>
-                    <button class="botao">Enviar</button>
+            <div class="title">
+                <p>DS-theatre</p>
+            </div>
+            <div class="nav-menu">
+                <ul>
+                    <li><a href="#" class="link">Home</a></li>
+                    <li><a href="#" class="link">Signature</a></li>
+                    <li><a href="#" class="link">Contact-us</a></li>
+                </ul>
+            </div>
+            <div class="link-button">
+                <a href="index.html"><button class="button" id="button">Sign-in</button></a>
+                <a href="index1.html"><button class="button" id="button">Sign-up</button></a>
+            </div>
+        </nav>
+<!---------------------------------------------------Top part--------------------------------------------------------------->
+        <div class="form">
+            <div class="top">
+                <h2 class="register">Register</h2>
+            </div>
+ <!---------------------------------------------------Register part--------------------------------------------------------------->
+            <div class="register-container" id="register">
+                <div class="form-1">
+                    <span><input class="Firstname" type="text" id="Firstname" placeholder="First name" text="First name" required></span>
+                    <input type="text" class="Lastname" name="Lastname" id="Last name" placeholder="Last name">
                 </div>
+                <div class="form-2">
+                    <div class="enter-button">
+                        <button class="button-enter" id="button-enter">Enter</button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 </html>

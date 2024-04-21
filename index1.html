@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="style1.css">
+<script src="java1.js" defer></script>
 <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,7 +22,7 @@
             </div>
             <div class="nav-menu">
                 <ul>
-                    <li><a href="#" class="link">Home</a></li>
+                    <li><a href="index2.html" class="link">Home</a></li>
                     <li><a href="#" class="link">Signature</a></li>
                     <li><a href="#" class="link">Contact-us</a></li>
                 </ul>
@@ -40,26 +41,42 @@
             <div class="register-container" id="register">
                 <div class="form-1">
                     <div class="div-name">
-                        <input class="Firstname" type="text" id="Firstname" placeholder="First name" text="" required>
+                        <input class="Firstname" type="text" id="campo" placeholder="First name" text="" required>
                         <span class="Firstname-icon"><i class='bx bx-user'></i></span>
                     </div>
                     <div class="div-name">
-                        <input type="text" class="Lastname" name="Lastname" id="Last name" placeholder="Last name" required>
+                        <input type="text" class="Lastname" name="Lastname" id="campo" placeholder="Last name" required>
                     </div>
                     <div class="div-name">   
-                        <input type="tel" class="Telefone" name="Telefone" id="Last name" placeholder="Telefone" required>
+                        <input type="tel" class="Telefone" name="Telefone" id="campo" placeholder="Telefone" required>
                         <span class="Phone-icon"><i class='bx bx-phone'></i></span>
                     </div>
                     <div class="div-name">   
-                        <input type="number" class="CPF" name="CPF" id="Last name" placeholder="CPF" required>
+                        <input type="number" class="CPF" name="CPF" id="campo" placeholder="CPF" required>
                         <span class="CPF-icon"><i class='bx bxs-user-detail'></i></span>
                     </div>
                 </div>
-                <div class="form-2">
-                    <div class="enter-button">
-                        <button class="button-enter" id="button-enter">Enter</button>
+                    <div class="form-2">
+                        <div class="div-name">
+                            <input class="Age" type="number" id="campo" placeholder="Your Age" text="" required>
+                            <span class="Age-icon"><i class='bx bx-universal-access'></i></span>
+                        </div>
+                        <div class="div-name">
+                            <input class="Email" type="email" id="campo" placeholder="Your Email" text="Email" required>
+                            <span class="Email-icon"><i class='bx bx-envelope'></i></span>
+                        </div>
+                        <div class="div-name">
+                            <input class="Password" type="password" id="campo" placeholder="Password" text="Password" required>
+                            <span class="Password-icon"><i class='bx bx-show' ></i></span>
+                        </div>
+                        <div class="div-name">
+                            <input class="Confirm-password" type="password" id="campo" placeholder="Confirm your password" text="Password" required>
+                            <span class="Confirm-password-icon"><i class='bx bx-hide' ></i></span>
+                        </div>
                     </div>
-                </div>
+                    <div class="enter-button">
+                        <button class="button-enter" id="button-enter" onclick="apagarTexto()">Enter</button>
+                    </div>
             </div>
         </div>
     </div>

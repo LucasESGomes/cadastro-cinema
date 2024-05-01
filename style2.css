@@ -10,6 +10,7 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    overflow: hidden;
 }
 
 .general {
@@ -80,12 +81,67 @@ body{
 
 
 .Logo-Marvel {
-    position: relative;
+    position: absolute;
     width: 450px;
     height: 225px;
-    right: 480px;
-    top: -50px;
+    right: 1080px;
+    top: 200px;
     
+}
+
+.Temp-div {
+    width: 430px;
+    height: 60px;
+    position: relative; 
+    top: 180px;
+    right: 510px;
+    display: flex;
+    column-gap: 20px;
+    
+
+}
+
+.Temp-button {
+    width: 400px;
+    height: 45px;
+    border: none;
+    background-color: rgb(231, 0, 0);
+    color: white;
+    cursor: pointer;
+    border-bottom: 3px solid white;
+    transition: 0.4s all;
+    font-size: medium;
+    transform: skew(-10deg);
+}
+
+.Temp-button1 {
+    width: 400px;
+    height: 45px;
+    border-color: red;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+    transition: 0.4s all;
+    font-size: medium;
+    transform: skew(-10deg);
+}
+
+.Temp-button:hover {
+    background-color: rgb(14, 14, 14);
+}
+
+.Temp-button1:hover {
+    background-color: rgb(14, 14, 14);
+}
+
+.watch-text {
+    height: 50px;
+    width: 500px;
+    font-size: 8px;
+    color: white;
+    position: absolute;
+    top: 430px;
+    right: 1030px;
 }
 
 

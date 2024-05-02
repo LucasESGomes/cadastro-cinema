@@ -84,7 +84,7 @@ body{
     position: absolute;
     width: 450px;
     height: 225px;
-    right: 1080px;
+    right: 1300px;
     top: 200px;
     
 }
@@ -93,8 +93,8 @@ body{
     width: 430px;
     height: 60px;
     position: relative; 
-    top: 180px;
-    right: 510px;
+    top: 130px;
+    right: 570px;
     display: flex;
     column-gap: 20px;
     
@@ -141,7 +141,6 @@ body{
     color: white;
     position: absolute;
     top: 430px;
-    right: 1030px;
+    right: 1250px;
 }
-
 
